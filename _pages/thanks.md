@@ -1,7 +1,7 @@
 ---
 title: Thank you
-subtitle: Your message was sent successfully.
-description: A sleek, modern Jekyll theme for personal websites.
+subtitle: Your message was sent successfully. I will get back to you as soon as possible.
+description:
 featured_image: /images/demo/contact.jpg
 ---
 

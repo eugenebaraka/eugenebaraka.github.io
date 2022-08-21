@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Personal
+  site_title: Eugene Baraka
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -12,13 +12,15 @@ menu_settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Readings'
+      url: '/readings'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: A sleek, modern Jekyll theme for personal websites.
+  footer_tagline: A little site for my daily imaginations
 
 hero_settings:
   overlay_opacity: 0.8
@@ -27,14 +29,14 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: ''
+  form_action: 'https://formspree.io/f/xayknwnn'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'https://twitter.com/eugene_barakaaa'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -58,10 +60,10 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/ebaraka'
 
 color_settings:
-  background_color: '#ffffff'
+  background_color: '#f3f3f3'
   background_alt_color: '#f4f5f6'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- include read_time.html content=page.content -%}
 
 <section class="hero hero--single">
 
@@ -11,8 +12,23 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
-		<p>{{ page.date | date_to_long_string }}</p>
-
+		{% if page.subtitle %}
+		<h2 class="subheading">{{ page.subtitle }}</h2>
+		{% endif %}
+		<span class="meta">
+			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+				{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+				{{ page.date | date: date_format }}
+			  </time>
+			  {% if page.author %}
+				• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+			  {% endif %} &verbar; 
+			  {{ reading_time }} ({{ total_words }}) &verbar;
+			   {% include mini_social.html %}
+			 
+			</p>
+		</span>
+			
 	</div>
 
 </section>

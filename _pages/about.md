@@ -1,32 +1,29 @@
 ---
-title: About me
-subtitle: Personal is the perfect theme for developers, designers and other creatives.
-description: Personal is the perfect theme for developers, designers and other creatives.
+title: Hi there, welcome to my blog!
+subtitle: 
+description: About me
 featured_image: /images/demo/about.jpg
 ---
 
-## Features
+My name is Eugene Baraka, I am a techie who is learning to code everyday so I can play with data. I started this blog to 
+document my learning journey and improve my writing skills. 
 
-We've packed Personal full of powerful features to help showcase your work:
+I am stimulated by new ideas and have a passion to learn something new each day. I read psychology, personal finance, and memoir books, so I will also be sharing some thoughts about my recent reads as well. I hope you enjoy what you find here :)
 
-* Beautiful, minimal design
-* Large header image and single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+## Education
 
-## Get Personal
+Msc in Public Health, McGill University  
+Class of 2023
 
-Personal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
+Bsc in Nutrition, University of Nebraska-Lincoln  
+Class of 2021
 
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+## Skills
+Proficient in: 
+- Python
+- R
+- SQL
+- Git
+
+
+<a href="https://mcgill-my.sharepoint.com/:b:/g/personal/eugene_baraka_mail_mcgill_ca/EbmYNHg5LSdPgBcb2-VEnGsBJj0mEOFRiCsLqC36jVJKFg?e=y1LBlK" class="button button--large">View my Resume</a>
