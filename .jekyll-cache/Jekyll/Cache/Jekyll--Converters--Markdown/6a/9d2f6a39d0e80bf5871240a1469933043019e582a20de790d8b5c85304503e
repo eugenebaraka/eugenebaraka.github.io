@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-28T21:13:13-04:00</updated><id>http://localhost:4000/feed.xml</id><subtitle></subtitle><author><name>Eugene Baraka</name></author><entry><title type="html">Understanding Population Variance and Sample Variance Formulas</title><link href="http://localhost:4000/blog/variance" rel="alternate" type="text/html" title="Understanding Population Variance and Sample Variance Formulas" /><published>2022-07-03T00:00:00-04:00</published><updated>2022-07-03T00:00:00-04:00</updated><id>http://localhost:4000/blog/variance</id><content type="html" xml:base="http://localhost:4000/blog/variance"><![CDATA[<p><span class="firstcharacter">I</span>n my data science learning journey, I set a goal to really understand the fundamental topics before moving on to advanced ones. Instead of striving to learn as many things as I can, I slow down and really understand how things work under the hood. This is because I believe that “you can’t fix what you don’t understand” and understanding is totally different from knowing. This weekend, I revisited my statistics basics and thought of writing about an easy way to understand variance.</p>
+I""<p><span class="firstcharacter">I</span>n my data science learning journey, I set a goal to really understand the fundamental topics before moving on to advanced ones. Instead of striving to learn as many things as I can, I slow down and really understand how things work under the hood. This is because I believe that “you can’t fix what you don’t understand” and understanding is totally different from knowing. This weekend, I revisited my statistics basics and thought of writing about an easy way to understand variance.</p>
 
 <p>In this article, I will discuss:</p>
 <ul>
@@ -22,7 +22,10 @@
 
 <p>The variance is calculated as</p>
 
-<p><img src="/images/posts/variance_explained/var.png" alt="variance" /></p>
+\[\begin{align}
+\bar{x} &amp;=  \frac{1}{n}(x_1+x_2+\ldots+x_n) \\
+&amp;= \frac{1}{n}\sum_{i=1}^nx_i
+\end{align}\]
 
 <p>Where,</p>
 <ul>
@@ -95,4 +98,5 @@ n is the number of observations;</p>
 
 <p>There you have it!! Now we know what variance is, why we square deviations from the mean, and the difference between population and sample variance. Above all, if we wanted, we wouldn’t have to rely on numpy’s variance function to calculate our own variance. Isn’t that amazing? I think it is!!!</p>
 
-<p>À bientôt!!</p>]]></content><author><name>EUGENE BARAKA</name></author><summary type="html"><![CDATA[Why do we square the deviations from the mean in the variance formula? What is the difference between population and sample variance? Read on to easily make sense of this important statistical measure!]]></summary></entry></feed>
+<p>À bientôt!!</p>
+:ET

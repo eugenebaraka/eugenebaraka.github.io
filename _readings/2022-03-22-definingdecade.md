@@ -1,12 +1,13 @@
 ---
 title: 'Why You Should Not Waste Your Twenties - Takeaways from The Defining Decade by Meg Jay'
 subtitle:
+author: EUGENE BARAKA
 date: 2022-03-22
 description: One's twentysomething years are probably the most important years to define life 
     through adulthood. Therefore, contrary to what the "thirty-is-the-new-twenty" culture preaches, 
     our twenties do matter. A lot. In this book, Dr. Jay gives us tools to make the most out of
     these precious years through work, relationships, and identity. Read on to find out my main takeaways.
-featured_image: 'assets/png/the-defining-decade'
+featured_image: 'images/TheDefiningDecade.jpeg'
 ---
 
 <span class="firstcharacter">A</span>fter reading this book in my early twenties, I promised myself to reread it once I turn 25. This time, it was even more relatable. Most stories in the book feel like Dr. Jay was writing about my life lol. But seriously, this is a terrific book for any twentysomething who wants to get (more) serious about their lives and needs to understand the psychology behind why we behave as we do. I was also glad to read the 2021 edition with updated and even more interesting content. I will definitely be reading this book again in the next few years. I rated it 5 stars on [Goodreads](https://www.goodreads.com/review/show/4623639606?book_show_action=false&from_review_page=1). Highly recommended!!
