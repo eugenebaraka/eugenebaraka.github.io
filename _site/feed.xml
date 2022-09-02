@@ -1,98 +1,218 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-28T21:13:13-04:00</updated><id>http://localhost:4000/feed.xml</id><subtitle></subtitle><author><name>Eugene Baraka</name></author><entry><title type="html">Understanding Population Variance and Sample Variance Formulas</title><link href="http://localhost:4000/blog/variance" rel="alternate" type="text/html" title="Understanding Population Variance and Sample Variance Formulas" /><published>2022-07-03T00:00:00-04:00</published><updated>2022-07-03T00:00:00-04:00</updated><id>http://localhost:4000/blog/variance</id><content type="html" xml:base="http://localhost:4000/blog/variance"><![CDATA[<p><span class="firstcharacter">I</span>n my data science learning journey, I set a goal to really understand the fundamental topics before moving on to advanced ones. Instead of striving to learn as many things as I can, I slow down and really understand how things work under the hood. This is because I believe that “you can’t fix what you don’t understand” and understanding is totally different from knowing. This weekend, I revisited my statistics basics and thought of writing about an easy way to understand variance.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-01T21:47:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wow! Pretty cool</title><subtitle>A little site about my daily imaginations.
+</subtitle><author><name>Eugene baraka</name></author><entry><title type="html">Why You Should Not Waste Your Twenties - Takeaways from The Defining Decade by Meg Jay</title><link href="http://localhost:4000/readings/2022/03/22/definingdecade.html" rel="alternate" type="text/html" title="Why You Should Not Waste Your Twenties - Takeaways from The Defining Decade by Meg Jay" /><published>2022-03-22T00:00:00-04:00</published><updated>2022-03-22T00:00:00-04:00</updated><id>http://localhost:4000/readings/2022/03/22/definingdecade</id><content type="html" xml:base="http://localhost:4000/readings/2022/03/22/definingdecade.html"><![CDATA[<p><span class="firstcharacter">A</span>fter reading this book in my early twenties, I promised myself to reread it once I turn 25. This time, it was even more relatable. Most stories in the book feel like Dr. Jay was writing about my life lol. But seriously, this is a terrific book for any twentysomething who wants to get (more) serious about their lives and needs to understand the psychology behind why we behave as we do. I was also glad to read the 2021 edition with updated and even more interesting content. I will definitely be reading this book again in the next few years. I rated it 5 stars on <a href="https://www.goodreads.com/review/show/4623639606?book_show_action=false&amp;from_review_page=1">Goodreads</a>. Highly recommended!!</p>
 
-<p>In this article, I will discuss:</p>
+<p>The book consists of three main parts; <em>Work, Love, and the Brain and the Body</em>. These are my main takeaways:</p>
+
+<p><strong>WORK</strong></p>
+
+<p><em>Identity capital</em>: You can’t think your way through life. The only way to figure out what to do is to do something. Start doing something, even a small one, you think would be a step to where you want to be.</p>
+
+<p><em>Weak ties</em>: Your close friends (urban tribe or strong ties) are your close friends because they are mostly like yourself. You know and love the same things. (Birds with a feather flock together because of homophily —love of the same or similarity breeds connection.) They are most of the time not more than you. However, weak ties give us access to something fresh. They know things and people we don’t know. Connect with weak ties just by asking for small favors. Make yourself interesting and relevant and ask for a clearly defined favor. But first, know precisely what you want or need. This is the time to be connecting, not just with the same opinions but with those who might see things a little differently.</p>
+
+<p><em>My life should look better on Instagram</em>: many twentysomethings do not recognize that almost everyone is keeping their troubles or negative experiences hidden. We compare ourselves with the posts. “If we only wanted to be happy, it’d be easy; but we want to be happier than other people, which is almost always difficult, since we think them happier than they are”(Charles de Montesquieu)</p>
+
+<p><strong>LOVE</strong></p>
+
+<p><em>An upmarket conversation</em>: the best time to work on your marriage is before you have one. Start thinking about what your marriage will be like when you’re still in twenties; and there is no deadline for having a commitment.</p>
+
+<p><em>Picking your family</em>: there’s something scary about picking your family. It’s not romantic. It means you are not just waiting for your soulmate to arrive. It means you know you are making decisions that will affect the rest of your life. One of our greatest twentysomething opportunities is picking and creating our families</p>
+
+<p><em>Cohabitation effect</em>: living together before marriage is not a test for it to work out. It is easy to slide in cohabiting, but it’s not easy to slide out when you find things won’t work out.</p>
+
+<p><em>Being in like</em>: being alike in ways that matter and genuinely liking who the person is. “what counts in making a happy marriage is not so much how compatible you are, but how you deal with incompatibility”-Leo Tolstoy.</p>
+
+<p><em>Twenty-Nine Conversations</em>: This is probably the highlight of reading the new edition of the book. It lists 29 conversation you should have with you partner if you are considering marriage. I will definitely be coming back to these more often.</p>
+
+<p><strong>THE BRAIN AND THE BODY</strong></p>
+
+<p><em>Outside in</em>:  Confidence doesn’t come from inside out, but it moves from the outside in. It comes from experience. We imagine we will show up at work and instantly add value it and be taken seriously. This is not the case. If you feel anxious or incompetent, calm yourself with what had gone well.</p>
+
+<p><em>Getting along and getting ahead</em>: who you will be in your thirties and beyond is built out of the goals you are exerting for yourself today.</p>
+
+<p><em>Do the math</em>: the written timeline is necessary to plan your life ahead. Time is so limited and starting now is the best way to make the most out of your life earlier. Our twenties is when we start creating our own sense of time, our plans about how the years ahead will unfold.</p>
+
+<p>Probably the best book conclusion I have ever read:
+<strong>The future is not written in the stars ⭐️. There are no guarantees. So claim your adulthood. Be intentional. Get to work👨‍💻. Pick your family 💑. Do the math. Make your own certainty. Don’t be defined by what you didn’t know or didn’t do. You are deciding your life right now.</strong></p>]]></content><author><name>EUGENE BARAKA</name></author><category term="readings" /><summary type="html"><![CDATA[One's twentysomething years are probably the most important years to define life through adulthood. Therefore, contrary to what the "thirty-is-the-new-twenty" culture preaches, our twenties do matter. A lot. In this book, Dr. Jay gives us tools to make the most out of these precious years through work, relationships, and identity. Read on to find out my main takeaways.]]></summary></entry><entry><title type="html">Welcome To Jekyll</title><link href="http://localhost:4000/2016/05/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome To Jekyll" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>http://localhost:4000/2016/05/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2016/05/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Eugene baraka</name></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">My Example Post</title><link href="http://localhost:4000/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>http://localhost:4000/2016/05/20/my-example-post</id><content type="html" xml:base="http://localhost:4000/2016/05/20/my-example-post.html"><![CDATA[<p>Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</p>
+
+<p>No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.</p>]]></content><author><name>Eugene baraka</name></author><summary type="html"><![CDATA[Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.]]></summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="http://localhost:4000/misc/2016/05/20/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>http://localhost:4000/misc/2016/05/20/super-long-article</id><content type="html" xml:base="http://localhost:4000/misc/2016/05/20/super-long-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>]]></content><author><name>Eugene baraka</name></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00-04:00</published><updated>2016-05-20T00:00:00-04:00</updated><id>http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
+
+<h2 id="some-great-heading-h2">Some great heading (h2)</h2>
+
+<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.</p>
+
+<p>Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<h2 id="another-great-heading-h2">Another great heading (h2)</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
+
+<h3 id="some-great-subheading-h3">Some great subheading (h3)</h3>
+
+<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.</p>
+
+<p>Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
+
+<h3 id="some-great-subheading-h3-1">Some great subheading (h3)</h3>
+
+<p>Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<blockquote>
+  <p>This quote will <em>change</em> your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don’t <em>misuse</em> it.</p>
+</blockquote>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.</p>
+
+<h3 id="some-great-subheading-h3-2">Some great subheading (h3)</h3>
+
+<p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<h4 id="you-might-want-a-sub-subheading-h4">You might want a sub-subheading (h4)</h4>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<h4 id="but-its-probably-overkill-h4">But it’s probably overkill (h4)</h4>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<h5 id="could-be-a-smaller-sub-heading-pacman-h5">Could be a smaller sub-heading, <code class="language-plaintext highlighter-rouge">pacman</code> (h5)</h5>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<h6 id="small-yet-significant-sub-heading--h6">Small yet significant sub-heading  (h6)</h6>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
+<h3 id="oh-hai-an-unordered-list">Oh hai, an unordered list!!</h3>
+
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
+
 <ul>
-  <li><a href="#title1">How to make sense of variance by using visuals</a></li>
-  <li><a href="#title2">Why variance calculation uses squares</a></li>
-  <li><a href="#title3">Why population variance and sample variance have different denominators</a></li>
-  <li><a href="#title4">Writing a variance function from scratch</a></li>
+  <li>First item, yo</li>
+  <li>Second item, dawg</li>
+  <li>Third item, what what?!</li>
+  <li>Fourth item, fo sheezy my neezy</li>
 </ul>
 
-<p>First, let do a little refresher on what variance is:</p>
+<h3 id="oh-hai-an-ordered-list">Oh hai, an ordered list!!</h3>
 
-<p>Variance is a statistical measure that explains how far away data points are from the mean, and hence from each other.</p>
-<ul>
-  <li>A variance of zero means all data is similar (we have only one data point)</li>
-  <li>The higher the variance, the more disperse our data is (the data points are far away from the mean and from each other)</li>
-  <li>The lower the variance, the less disperse the data is (data points close to the mean and to each other)</li>
-  <li>Variance cannot be negative!</li>
-</ul>
+<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
 
-<h2 id="how-to-make-sense-of-variance-by-using-visuals-">How to make sense of variance by using visuals <a name="title1"></a></h2>
+<ol>
+  <li>First item, yo</li>
+  <li>Second item, dawg</li>
+  <li>Third item, what what?!</li>
+  <li>Fourth item, fo sheezy my neezy</li>
+</ol>
 
-<p>The variance is calculated as</p>
+<h2 id="headings-are-cool-h2">Headings are cool! (h2)</h2>
 
-<p><img src="/images/posts/variance_explained/var.png" alt="variance" /></p>
+<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Where,</p>
-<ul>
-  <li>x_i is the ith value in the data set;</li>
-  <li>µ is the population mean;</li>
-  <li>N is the number of values.</li>
-</ul>
+<p>Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
 
-<p>Let’s use python’s scikit-learn built-in dataset, the Iris dataset, to break down this formula. Please find the full notebook on my <a href="https://github.com/eugenebaraka/deep-stats/blob/main/variance.ipynb">github</a></p>
+<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
 
-<p>We will import all necessary libraries first:</p>
+<h3 id="tables">Tables</h3>
 
-<p><img src="/images/posts/variance_explained/libraries.png" alt="libraries" /></p>
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Loading and visualizing the first 7 rows of the data</p>
-
-<p><img src="/images/posts/variance_explained/head.png" alt="first 7 rows" /></p>
-
-<p>For simplicity we will exclusively use the first column of the data, but the process is the same! By visualizing the distribution of sepal length, we see that is pretty much normally distributed with a mean of around 5.8 cm.</p>
-
-<p><img src="/images/posts/variance_explained/output.png" alt="Distribution of sepal length" /></p>
-
-<p>The first step to calculate variance is finding the distance between each data point and the mean. Consider a flower of a 3.8cm sepal length. This data point is two centimetres away from the mean (5.8 cm). If we square the difference, we get 4, which is the area of the square of sides of 2.</p>
-
-<p><img src="/images/posts/variance_explained/diff_square.png" alt="Square of the distance" /></p>
-
-<p>We do the same for every other data point in our dataset to form different squares. The variance is the mean of the area of those squares together. The figure below shows the distribution of the squared differences along with the distribution of sepal lengths. Note that I immediately calculated and plotted the mean of the squared differences, which is the <strong>Variance</strong>.</p>
-
-<p><img src="/images/posts/variance_explained/squared_diff.png" alt="image" /></p>
-
-<p>In this case, the variance is close to 0.7, which is the same as the one calculated using numpy.</p>
-
-<p><img src="/images/posts/variance_explained/variance.png" alt="variance" /></p>
-
-<h2 id="why-variance-calculation-uses-squares-">Why variance calculation uses squares <a name="title2"></a></h2>
-
-<p>Why do we square the difference and not take absolute values? This, alone, can be a post in itself explaining advantages and disadvantages of squaring the differences. However, in short, squaring the differences in the variance serves two main purposes:</p>
-
-<ul>
-  <li>It penalizes the outliers (larger dispersions from the mean) more than the data points closer to the mean, and</li>
-  <li>It ensures were are not summing negative values — this prevents the distances above the mean from cancelling out with those below, which would result in a variance of zero</li>
-</ul>
-
-<p>If you want to read more about this, please refer to this <a href="https://stats.stackexchange.com/questions/118/why-square-the-difference-instead-of-taking-the-absolute-value-in-standard-devia">StackExchange post</a>!</p>
-
-<h2 id="why-population-variance-and-sample-variance-have-different-denominators-">Why population variance and sample variance have different denominators <a name="title3"></a></h2>
-
-<p>The variance we calculated above is referred to population variance. However, in practice, we rarely use population variance since we are working with samples taken from the study population. When dealing with a sample, we calculate sample variance instead.</p>
-
-<p>Our goal is for the variation in our sample (sample variance) to estimate the variation in the population as accurately as possible. Since the population mean is unknown, we estimate it using the sample mean. In this process we are already introducing bias in our variance, so we need to correct for that bias by multiplying the population variance with n/(n-1), where n is the number of observations. This bias correction is known as <a href="https://en.wikipedia.org/wiki/Bessel%27s_correction">Bessel’s correction</a>. If we didn’t correct for this bias, the variance obtained would be a biased estimator of the population variance</p>
-
-<p>After correcting for the bias, the formula becomes:</p>
-
-<p><img src="/images/posts/variance_explained/sample_var.png" alt="sample variance" /></p>
-
-<p>where, 
-x_i is the ith value in the data set;
-x̄ is the sample mean;
-n is the number of observations;</p>
-
-<p>Note that the formula is the almost the same as that of population variance except that we take n minus one degree of freedom as the denominator for the sample variance.</p>
-
-<p>Now to the best part….Let’s write our own variance function from scatch <a name="title4"></a>:</p>
-
-<p><img src="/images/posts/variance_explained/var_fun.png" alt="variance function" /></p>
-
-<p>Testing it out…</p>
-
-<p><img src="/images/posts/variance_explained/test_fun.png" alt="test function" /></p>
-
-<p>There you have it!! Now we know what variance is, why we square deviations from the mean, and the difference between population and sample variance. Above all, if we wanted, we wouldn’t have to rely on numpy’s variance function to calculate our own variance. Isn’t that amazing? I think it is!!!</p>
-
-<p>À bientôt!!</p>]]></content><author><name>EUGENE BARAKA</name></author><summary type="html"><![CDATA[Why do we square the deviations from the mean in the variance formula? What is the difference between population and sample variance? Read on to easily make sense of this important statistical measure!]]></summary></entry></feed>
+<table>
+  <thead>
+    <tr>
+      <th>Title 1</th>
+      <th>Title 2</th>
+      <th>Title 3</th>
+      <th>Title 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit amet consectetur</td>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum</td>
+      <td>lorem</td>
+      <td>lorem ipsum</td>
+    </tr>
+    <tr>
+      <td>lorem ipsum dolor</td>
+      <td>lorem ipsum dolor sit</td>
+      <td>lorem ipsum dolor sit amet</td>
+      <td>lorem ipsum dolor sit amet consectetur</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry><entry><title type="html">Some articles are just so short that we have to make the footer stick</title><link href="http://localhost:4000/misc/2016/05/19/super-short-article.html" rel="alternate" type="text/html" title="Some articles are just so short that we have to make the footer stick" /><published>2016-05-19T00:00:00-04:00</published><updated>2016-05-19T00:00:00-04:00</updated><id>http://localhost:4000/misc/2016/05/19/super-short-article</id><content type="html" xml:base="http://localhost:4000/misc/2016/05/19/super-short-article.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content><author><name>Eugene baraka</name></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></summary></entry></feed>
