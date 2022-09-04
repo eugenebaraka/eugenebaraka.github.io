@@ -11,12 +11,8 @@ reflections on my professional life.
 
 <ul>
   {% for post in site.categories.blog %}
-  {% if post.type == "post" %}
     <li>
-        <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        <meta name="description" content="{{ post.summary | escape }}">
-        <meta name="keywords" content="{{ post.tags | join: ', ' | escape }}"/>
+        <span>{{ post.date | date_to_string }}</span> » {% if post.highlight %}&starf; {% endif %}<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
-  {% endif %}
   {% endfor %}
 </ul>

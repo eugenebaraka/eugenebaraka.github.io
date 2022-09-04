@@ -24,9 +24,9 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %} 
-      {%- endif -%} &verbar;
-      {{ reading_time }} ({{ total_words }})
-			{% include mini_social.html %}</p>
+      {%- endif -%} •
+      {{ reading_time }} • {{ total_words }}
+			{% include post_socials.html %}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

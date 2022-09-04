@@ -2,6 +2,7 @@
 layout: post
 title: 'Why You Should Not Waste Your Twenties - Takeaways from The Defining Decade by Meg Jay'
 subtitle:
+category: Books
 author: EUGENE BARAKA
 date: 2022-03-22
 description: One's twentysomething years are probably the most important years to define life 

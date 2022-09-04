@@ -1,4 +1,4 @@
-title: Wow! Pretty cool
+title: Eugene Baraka
 author: Eugene Baraka
 description: > # this means to ignore newlines until "show_excerpts:"
   A little site about my daily imaginations.
@@ -12,23 +12,12 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    # devto: jekyll
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+    twitter: jekyll
+    github:  eugenebaraka
+    linkedin: ebaraka
+google_analytics: G-DS0XBYFETS
 
+rss: rss
     # Mastodon instances
     # mastodon:
     # - username: jekyll
@@ -45,10 +34,10 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
-- about
-- blog
-- readings
+# header_pages:
+# - about
+# - blog
+# - readings
 
 # Build settings
 theme: minima
