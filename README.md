@@ -10,7 +10,7 @@ cd eugenebaraka.github.io
 bundle install
 bundle exec jekyll serve
 ```
-After running `bundle exec jekyll serve`, you should see a message that confirming Jekyll is serving your site on your local host. Copy the paste the *server address* in your browser to see your site locally as you modify it after each refresh."
+After running `bundle exec jekyll serve`, you should see a message confirming Jekyll is serving your site on your local host. Copy and paste the *server address* in your browser to see your site locally as you modify it after each refresh."
 
 ## Spot a bug or typo?
 If you spot a bug or typo, please open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
