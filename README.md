@@ -2,7 +2,7 @@
 This is the source code for my static jekyll-powered [blog](https://eugenebaraka.github.io). A substantial amount of code used in development of this site is from the minima and personal jekyll themes. 
 
 ## Installation
-Make sure you have [Ruby](https://www.ruby-lang.org/) as well as [bundler](https://bundler.io/) installed on your computer. See websites for instructions depending on your operating system, then run the follwoing commands in your terminal:
+Make sure you have [Ruby](https://www.ruby-lang.org/) as well as [bundler](https://bundler.io/) installed on your computer. See websites for instructions depending on your operating system, then run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/eugenebaraka/eugenebaraka.github.io.git
