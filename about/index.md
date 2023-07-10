@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Like everything else in life, this website a WIP. Come back later for more!
+My name is ... and I am currently a master's student in Public Health at McGill University. I love statistics and mathematics which led me to enrolling in my masters program. I am interested in the intersection of public health, data science, and technology. And I hope to use my skills, that are expanding every day, to improve the public health.
+
+In this blog, I will be writing about statistics, data science, personal projects, and interesting books I am reading. I hope you enjoy reading my blog as much as I enjoy writing it.
+
+Let's connect on [LinkedIn](www.linkedin.com/in/ebaraka).
