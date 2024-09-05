@@ -2,7 +2,7 @@
 layout: post
 type: post
 title: "Reverting a Git Repository to Its Original State"
-date: 2024-09-03
+date: 2024-09-04
 author: EUGENE BARAKA
 published: true
 tags:
