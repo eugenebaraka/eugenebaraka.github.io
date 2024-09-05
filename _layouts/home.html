@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="home">
+
+    <!-- Picture-->
+    <div class="profile">
+      <div class="details">
+   
+          <h2>Economic Consulting Analyst</h2>
+          <h3>Vancouver, BC</h3>
+        </div>
+  
+      <img src="/assets/png/power_of_tiny_habits.PNG" alt="Profile Picture" class="profile-pic">
+    </div>
+
+  <div class="divider">
+    <div class="left">
+      <p>Welcome to my blog!</p>
+      <p>
+
+        I'm currently an Economic Consulting Analyst at Analysis Group. Previously, I was a statistician at CANN Forecast, focusing on bayesian statistics and 
+        its real world applications to machine learning.
+        
+      </p>
+      <p>
+
+        In my free time, I learn about mathematics, statistics, computer science, and finance, where I find endless opportunities 
+        for exploration. A little bit of everything, so let's see what this blog turns out to be!
+        <br> <br>
+
+        Wanna chat? Reach out <a href="https://www.linkedin.com/in/ebaraka">here</a>
+        
+        
+      </p>
+    </div>
+  </div>
+
+
+  <!-- &nbsp; -->
+
+  <hr>
+  
+  <!-- &nbsp; -->
+  
+  <h2>Recent Posts</h2>
+  
+  <ul class="post-list">
+    {% assign mainPosts = site.posts %}
+    {% for post in mainPosts %}
+      <li class="post-item">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">
+          {{ post.date | date: date_format }} &verbar; 
+          {% for tag in post.tags %}
+            <a href="/tag/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
+          {% endfor %}
+          <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+          <p style="color:#828282">{{ post.description }}</p>
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  </div>
+
+
+  
+ 
+  

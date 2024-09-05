@@ -1,0 +1,16 @@
+
+{%- assign social = site.minima.social_links -%}
+
+  {% if social.dribbble %}<a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#dribbble"></use></svg></a>{% endif %}
+  {% if social.facebook %}<a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#facebook"></use></svg></a>{% endif %}
+  {% if social.flickr %}<a href="https://www.flickr.com/photos/{{ social.flickr | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#flickr"></use></svg></a>{% endif %}
+  {% if social.github %}<a href="https://github.com/{{ social.github | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#github"></use></svg></a>{% endif %}
+  {% if social.instagram %}<a href="https://instagram.com/{{ social.instagram | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#instagram"></use></svg></a>{% endif %}
+  {% if social.linkedin %}<a href="https://www.linkedin.com/in/{{ social.linkedin }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#linkedin"></use></svg></a>{% endif %}
+  {% if social.pinterest %}<a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#pinterest"></use></svg></a>{% endif %}
+  {% if social.twitter %}<a href="https://www.twitter.com/{{ social.twitter | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#twitter"></use></svg></a>{% endif %}
+  {% if social.youtube %}<a href="https://youtube.com/{{ social.youtube | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#youtube"></use></svg></a>{% endif %}
+  {% if social.googleplus %}<a href="https://plus.google.com/{{ social.googleplus | escape }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#googleplus"></use></svg></a>{% endif %}
+  {% if site.minima.rss %}<a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="/assets/icons.svg#rss"></use></svg></a>{% endif %}
+
+

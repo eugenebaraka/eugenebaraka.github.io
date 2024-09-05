@@ -1,0 +1,167 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// PROFILE PICTURE AND TEXT AT THE HOME PAGE
+.profile {
+    display: flex;
+    align-items: center;
+    margin: calc($spacing-unit / 2) 0 calc($spacing-unit / 2) 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: calc($spacing-unit / 2) 0 calc($spacing-unit / 2) 0;
+}
+
+.details {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.details h1 {
+    font-size: $base-font-weight; 
+    margin-bottom: calc($spacing-unit / 2);
+}
+
+.details p {
+    font-size: $base-font-weight; 
+    margin-bottom: calc($spacing-unit / 2);
+}
+
+
+// DISABLING THE HAMBURGER MENU FOR SMALLER SCREENS
+
+/* Remove the hamburger menu on all screen sizes */
+.site-nav .menu-icon,
+.site-nav .nav-trigger,
+.site-nav label[for="nav-trigger"] {
+  display: none !important;
+}
+
+/* Keep the navigation always visible */
+.site-nav input ~ .trigger {
+  display: block !important;
+}
+
+/* Make the menu blend into the header without division */
+.site-nav {
+  background-color: transparent !important; /* Make the background transparent */
+  border: none !important; /* Remove any border around the menu */
+  text-align: right; /* Keep navigation aligned to the right */
+}
+
+/* Ensure the page links (menu items) are inline and properly spaced */
+.site-nav .page-link {
+  display: inline-block !important;
+  padding: 5px 10px;
+  margin-right: 20px; /* Adjust margin for spacing between links */
+  color: inherit; /* Inherit the text color from the header */
+}
+
+/* Ensure proper alignment on smaller screens */
+@media screen and (max-width: 768px) {
+  .site-nav .page-link {
+    display: inline-block !important;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+}
+
+
+// LISTING POSTS
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-item {
+    margin-bottom: 20px;
+}
+
+.post-item h4 {
+    font-size: 1.5em;
+    margin: 0 0 2px 0;
+}
+
+
+.post-meta {
+    // font-size: 0.9em;
+    // color: #aaa;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post-meta span {
+    margin-right: 10px;
+}
+
+
+.tag {
+    background-color: #444;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+
+// CALL-OUTS
+.callout {
+    border-left: 4px solid;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.callout.note {
+    border-color: #2196F3; /* Blue */
+    background-color: #E3F2FD; /* Light Blue */
+    color: #0D47A1; /* Dark Blue */
+}
+
+.callout.hint {
+    border-color: #4CAF50; /* Green */
+    background-color: #E8F5E9; /* Light Green */
+    color: #1B5E20; /* Dark Green */
+}
+
+.callout.warning {
+    border-color: #FF9800; /* Orange */
+    background-color: #FFF3E0; /* Light Orange */
+    color: #E65100; /* Dark Orange */
+}
+
+.callout.summary {
+    border-color: #FFC107; /* Amber */
+    background-color: #FFF8E1; /* Light Amber */
+    color: #FF6F00; /* Dark Amber */
+}
+
+.callout.info {
+    border-color: #2196F3; /* Blue */
+    background-color: #E3F2FD; /* Light Blue */
+    color: #0D47A1; /* Dark Blue */
+}
+
+// TAGS
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust the spacing between tags */
+    margin: 20px 0;
+  }
+  
+  .tag {
+    color: #000; 
+    background-color:  #f2f2f2; 
+    padding: 10px 20px; /* Padding inside the tag */
+    border-radius: 25px; /* Rounded edges */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Adjust font size */
+    font-weight: 500; /* Medium weight */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    // transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  }
