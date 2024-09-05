@@ -1,18 +1,14 @@
 ---
-
----
----
 layout: post
 type: post
-title: 2024-09-04-Reverting-a-Git-Repository-to-Its-Original-State
-date: 2024-09-04
-author: "EUGENE BARAKA"
+title: "Reverting a Git Repository to Its Original State"
+date: 2024-09-03
+author: EUGENE BARAKA
 published: true
-tags: 
-	- dev
+tags:
+  - dev
 header-img: 
-description: "Resetting your git repository can be a risky move especially when the stakes are high. I got an opportunity to do it when they are low :)"
-
+description: "Resetting your git repository can be a risky move especially when the stakes are high. I got an opportunity to do it when they are low."
 ---
 
 <span class="firstcharacter">I</span>'ve been _trying_ to blog consistently for a while now, and as I _hopefully_ declared [here](https://eugenebaraka.github.io/blog/2024/08/14/Another-Shot-at-Blogging.html), I’m back at it full steam (fingers crossed). But when I revisited my old blog—built two years ago with the [Minima Jekyll theme](https://github.com/jekyll/minima)—let’s just say I wasn't feeling the vibe anymore. That’s when the big question hit me: Can I revert the whole thing to its original, pristine state before any commits were made? Sure, I could’ve just re-cloned the Minima theme and started over, but where’s the fun in that when you can experiment, right?
