@@ -34,40 +34,40 @@
 // DISABLING THE HAMBURGER MENU FOR SMALLER SCREENS
 
 /* Remove the hamburger menu on all screen sizes */
-.site-nav .menu-icon,
-.site-nav .nav-trigger,
-.site-nav label[for="nav-trigger"] {
-  display: none !important;
-}
+// .site-nav .menu-icon,
+// .site-nav .nav-trigger,
+// .site-nav label[for="nav-trigger"] {
+//   display: none !important;
+// }
 
-/* Keep the navigation always visible */
-.site-nav input ~ .trigger {
-  display: block !important;
-}
+// /* Keep the navigation always visible */
+// .site-nav input ~ .trigger {
+//   display: block !important;
+// }
 
-/* Make the menu blend into the header without division */
-.site-nav {
-  background-color: transparent !important; /* Make the background transparent */
-  border: none !important; /* Remove any border around the menu */
-  text-align: right; /* Keep navigation aligned to the right */
-}
+// /* Make the menu blend into the header without division */
+// .site-nav {
+//   background-color: transparent !important; /* Make the background transparent */
+//   border: none !important; /* Remove any border around the menu */
+//   text-align: right; /* Keep navigation aligned to the right */
+// }
 
-/* Ensure the page links (menu items) are inline and properly spaced */
-.site-nav .page-link {
-  display: inline-block !important;
-  padding: 5px 10px;
-  margin-right: 20px; /* Adjust margin for spacing between links */
-  color: inherit; /* Inherit the text color from the header */
-}
+// /* Ensure the page links (menu items) are inline and properly spaced */
+// .site-nav .page-link {
+//   display: inline-block !important;
+//   padding: 5px 10px;
+//   margin-right: 20px; /* Adjust margin for spacing between links */
+//   color: inherit; /* Inherit the text color from the header */
+// }
 
-/* Ensure proper alignment on smaller screens */
-@media screen and (max-width: 768px) {
-  .site-nav .page-link {
-    display: inline-block !important;
-    padding: 5px 10px;
-    margin-right: 10px;
-  }
-}
+// /* Ensure proper alignment on smaller screens */
+// @media screen and (max-width: 768px) {
+//   .site-nav .page-link {
+//     display: inline-block !important;
+//     padding: 5px 10px;
+//     margin-right: 10px;
+//   }
+// }
 
 
 // LISTING POSTS
