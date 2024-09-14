@@ -21,12 +21,14 @@ layout: default
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
-            {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %} 
-      {%- endif -%} •
-      {{ reading_time }} • {{ total_words }}
-			{% include post_socials.html %}</p>
+            <span class="p-author h-card" itemprop="name">{{ author }}
+              • {{ reading_time }} • {{ total_words }}
+              {% include post_socials.html %}
+            </span>
+          </span>
+         {%- if forloop.last == false %}, {% endif -%}
+         {% endfor %} 
+      {%- endif -%} </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

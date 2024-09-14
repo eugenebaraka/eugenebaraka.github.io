@@ -16,8 +16,8 @@ layout: default
     {% for post in mainPosts %}
       <li class="post-item">
       
-        <h3 class="post-list-heading"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-        <!-- <p class="post-description">{{ post.description }}</p> -->
+        <h4 class="post-list-heading"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+        <p class="post-description">{{ post.description }}</p>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <p class="post-meta">
           {{ post.date | date: date_format }} &verbar; 

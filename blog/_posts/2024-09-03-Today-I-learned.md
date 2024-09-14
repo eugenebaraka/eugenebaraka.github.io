@@ -7,6 +7,7 @@ author: EUGENE BARAKA
 published: true
 tags:
   - ml
+  - til
 header-img: 
 description: "Introduction to supervised machine learning."
 ---

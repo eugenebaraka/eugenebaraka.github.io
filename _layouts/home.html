@@ -22,8 +22,9 @@ layout: default
       <p>Welcome to my blog!</p>
       <p>
 
-        I'm currently an Economic Consulting Analyst at Analysis Group. Previously, I was a statistician at CANN Forecast, focusing on bayesian statistics and 
-        its real world applications to machine learning.
+        I'm currently an Economic Consulting Analyst at <a href="https://www.analysisgroup.com/">Analysis Group</a>. My work mainly involves assisting analysis and modelling of <a href="https://en.wikipedia.org/wiki/Real_world_data">Real World Data (RWD)</a> for 
+        multiple <a href="https://vial.com/blog/articles/defining-heor-health-economics-and-outcomes-research/?https://vial.com/blog/articles/defining-heor-health-economics-and-outcomes-research/?utm_source=organic">HEOR</a> studies
+        in areas of oncology and immunology. Previously, I was a statistician at <a href="https://www.cannforecast.com/en/">CANN Forecast Inc.</a>, where I focused on bayesian statistics and its real world applications to machine learning.
         
       </p>
       <p>
@@ -50,7 +51,7 @@ layout: default
   
   <ul class="post-list">
     {% assign mainPosts = site.posts %}
-    {% for post in mainPosts %}
+    {% for post in mainPosts limit:4 %}
       <li class="post-item">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">

@@ -27,6 +27,7 @@ Here's a step-by-step guide to safely reset your repository while keeping your c
 If you want to save your current progress before resetting, it’s good practice to stash or create a new branch. This ensures that no work is lost if you need it later.
 
 To stash changes:
+
 ```bash
 git stash
 ```
